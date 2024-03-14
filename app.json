@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "autocomplete",
+    "slug": "autocomplete",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/c179bd6e-1a94-49ae-ad5c-fe7cea43b4ba"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c179bd6e-1a94-49ae-ad5c-fe7cea43b4ba"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    }
+  }
+}
